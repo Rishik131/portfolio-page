@@ -1,0 +1,20 @@
+.projects h2 {
+    color: #2bbbad;
+    margin-bottom: 30px;
+}
+
+.project-list {
+    display: grid;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #1f2a38;
+    border-radius: 10px;
+    padding: 25px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}

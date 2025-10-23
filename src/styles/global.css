@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-background: #121417;
+    --secondary-background: #152238;
+    --accent1: #00d4aa;
+    --accent2: #667eea;
+    --accent3: #4fc3f7;
+    --primary-text: #e8eef7;
+    --secondary-text: #94a3b8;
+}
+
+body {
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+}
+
