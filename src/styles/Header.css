@@ -1,4 +1,4 @@
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,4 +23,143 @@ nav a {
 
 nav a:hover {
     color: #2bbbad;
+} */
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2a38;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #2bbbad;
+    font-weight: bold;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2bbbad;
+}
+
+
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #1f2a38;
+        width: 200px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links a {
+        margin: 10px 0;
+    }
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2a38;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #2bbbad;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #2bbbad;
+}
+
+/* Hamburger icon */
+.menu-icon {
+    display: none;
+    font-size: 1.8rem;
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #1f2a38;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        max-height: 300px;
+        /* Enough height for all links */
+    }
+
+    .nav-links a {
+        margin: 15px 20px;
+        width: 100%;
+    }
 }
