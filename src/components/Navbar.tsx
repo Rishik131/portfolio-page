@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <h1 className="logo">Rishik.dev</h1>
+      <h1 className="logo">Rishik Kumar</h1>
 
       <button
         className={`hamburger ${open ? "open" : ""}`}

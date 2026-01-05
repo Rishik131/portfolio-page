@@ -2,15 +2,15 @@ import "../styles/section.css";
 
 const projects = [
   {
-    title: "Developer Portfolio",
+    title: "Depression Detection via Text Sentiment",
     description:
-      "A modern single-page portfolio built with React and Vite, focusing on performance and clean UI.",
-    tech: ["React", "Vite", "CSS"],
+      "An AI system that analyzes speech patterns to detect depression tendencies using transformer-based architectures.",
+    tech: ["Python", "PyTorch", "Transformer"],
     live: "#",
     github: "#",
   },
   {
-    title: "SaaS Dashboard",
+    title: "Phishing link detector",
     description:
       "Analytics dashboard with authentication, charts, and role-based access control.",
     tech: ["React", "API", "Charts"],
