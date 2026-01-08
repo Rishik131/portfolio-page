@@ -2,26 +2,34 @@ import "../styles/section.css";
 
 const projects = [
   {
-    title: "Developer Portfolio",
+    title: "Depression Detection via Text Sentiment",
     description:
-      "A modern single-page portfolio built with React and Vite, focusing on performance and clean UI.",
-    tech: ["React", "Vite", "CSS"],
+      "An AI system that analyzes speech patterns to detect depression tendencies using transformer-based architecture.",
+    tech: ["Python", "PyTorch", "Transformer"],
     live: "#",
     github: "#",
   },
   {
-    title: "SaaS Dashboard",
+    title: "Phishing Link Detector",
     description:
-      "Analytics dashboard with authentication, charts, and role-based access control.",
-    tech: ["React", "API", "Charts"],
+      "A machine learning–based application that analyzes URLs to determine their legitimacy and identify the origin of fraudulent links.",
+    tech: ["React", "Python", "Machine Learning"],
     live: "#",
     github: "#",
   },
   {
-    title: "Healthcare App",
+    title: "Disaster Response Agent",
     description:
-      "Frontend application for healthcare workflows with optimized UX and accessibility.",
-    tech: ["React", "Accessibility", "Performance"],
+      "Agentified system to predict mishaps in factories and take necessary actions",
+    tech: ["Python", "LangGraph", "Computer Vision", "React"],
+    live: "#",
+    github: "#",
+  },
+  {
+    title: "Energy Generation Cost Forecast System",
+    description:
+      "Forecasts energy generation costs by analyzing geographic location, weather forecasts, and projected energy demand.",
+    tech: ["Python", "LSTM", "React", "AWS"],
     live: "#",
     github: "#",
   },
