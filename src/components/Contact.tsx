@@ -57,14 +57,14 @@ export default function Contact() {
     message: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:  React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:  React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const subject = `Portfolio Contact from ${formData.name}`;
@@ -138,7 +138,7 @@ ${formData.message}
           <textarea
             name="message"
             placeholder="Your Message"
-            rows="5"
+            rows={5}
             required
             value={formData.message}
             onChange={handleChange}
