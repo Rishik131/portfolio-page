@@ -14,7 +14,7 @@ Experienced in React, large language models, and cloud-based deployments.</p>
 skills, and certifications.</p>
 
       <a
-        href="/Rishik_Kumar_Resume.pdf"
+        href="./Rishik_Kumar_Resume.pdf"
         download
         className="resume-btn"
       >
