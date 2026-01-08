@@ -15,8 +15,7 @@ skills, and certifications.</p>
 
       <a
         href="/Rishik_Kumar_Resume.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
+        download
         className="resume-btn"
       >
         Download Resume
