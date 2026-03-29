@@ -101,7 +101,7 @@ ${formData.message}
              <span>📞 Phone</span>
              <a href="tel:+918303386877">+91-8303386877</a>
              <span>📧 Email</span>
-             <a href="mailto:rishik.k2002@gmail.com">rishik@email.com</a>
+             <a href="mailto:rishik.k2002@gmail.com">rishik.k2002@email.com</a>
            </div>
            <div className="contact-item">
              <span>📍Location</span>

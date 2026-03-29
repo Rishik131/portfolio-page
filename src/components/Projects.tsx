@@ -2,18 +2,10 @@ import "../styles/section.css";
 
 const projects = [
   {
-    title: "Depression Detection via Text Sentiment",
+    title: "Hospital Resource Allocation System",
     description:
-      "An AI system that analyzes speech patterns to detect depression tendencies using transformer-based architecture.",
+      "An Agentic Solution to forecast patient count, and optimize hospital resources and staff count via Reinforcement Learning, and using it to generate shift roster using an AI Agent.",
     tech: ["Python", "PyTorch", "Transformer"],
-    live: "#",
-    github: "#",
-  },
-  {
-    title: "Phishing Link Detector",
-    description:
-      "A machine learning–based application that analyzes URLs to determine their legitimacy and identify the origin of fraudulent links.",
-    tech: ["React", "Python", "Machine Learning"],
     live: "#",
     github: "#",
   },
@@ -26,10 +18,26 @@ const projects = [
     github: "#",
   },
   {
+    title: "Depression Detection via Text Sentiment",
+    description:
+      "An AI system that analyzes speech patterns to detect depression tendencies using transformer-based architecture.",
+    tech: ["Python", "PyTorch", "Transformer"],
+    live: "#",
+    github: "#",
+  },
+  {
     title: "Energy Generation Cost Forecast System",
     description:
       "Forecasts energy generation costs by analyzing geographic location, weather forecasts, and projected energy demand.",
     tech: ["Python", "LSTM", "React", "AWS"],
+    live: "#",
+    github: "#",
+  },
+  {
+    title: "Phishing Link Detector",
+    description:
+      "A machine learning–based application that analyzes URLs to determine their legitimacy and identify the origin of fraudulent links.",
+    tech: ["React", "Python", "Machine Learning"],
     live: "#",
     github: "#",
   },
